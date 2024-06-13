@@ -16,7 +16,10 @@
     "test": "npm run test:unit",
     "build:cjs": "babel src --out-dir dist/cjs --presets @babel/preset-env",
     "build:esm": "babel src --out-dir dist/esm --presets @babel/preset-env --plugins @babel/plugin-transform-modules-commonjs",
-    "build": "npm run build:cjs && npm run build:esm"
+    "build": "npm run build:cjs && npm run build:esm",
+    "lint:format": "prettier ./src --write",
+    "lint": "eslint ./src",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -38,6 +41,15 @@
     "@babel/cli": "^7.24.7",
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
+    "@eslint/js": "^9.4.0",
+    "eslint": "^9.4.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "prettier": "3.3.2",
     "tape": "^5.7.5"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
