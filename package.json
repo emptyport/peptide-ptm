@@ -1,0 +1,25 @@
+{
+  "name": "peptide-ptm",
+  "version": "1.0.0",
+  "description": "A utility for working with peptide modifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emptyport/peptide-ptm.git"
+  },
+  "keywords": [
+    "peptide",
+    "ptm",
+    "psm",
+    "proteomics"
+  ],
+  "author": "Michael Porter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emptyport/peptide-ptm/issues"
+  },
+  "homepage": "https://github.com/emptyport/peptide-ptm#readme"
+}
