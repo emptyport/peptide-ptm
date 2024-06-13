@@ -11,7 +11,9 @@
     }
   },
   "scripts": {
-    "test": "tape src/**/*.test.js",
+    "test:unit": "tape src/**/*.test.js",
+    "test:integration": "tape test/integration/*.test.js test/integration/*.test.mjs",
+    "test": "npm run test:unit",
     "build:cjs": "babel src --out-dir dist/cjs --presets @babel/preset-env",
     "build:esm": "babel src --out-dir dist/esm --presets @babel/preset-env --plugins @babel/plugin-transform-modules-commonjs",
     "build": "npm run build:cjs && npm run build:esm"
