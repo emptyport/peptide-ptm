@@ -25,7 +25,8 @@
         "position": "Anywhere",
         "classification": "Post-translational"
       }
-    ]
+    ],
+    "id": "21"
   },
   {
     "title": "Acetylation",
@@ -48,7 +49,8 @@
         "position": "Any N-term",
         "classification": "Multiple"
       }
-    ]
+    ],
+    "id": "1"
   },
   {
     "title": "Methylation",
@@ -70,7 +72,8 @@
         "position": "Anywhere",
         "classification": "Post-translational"
       }
-    ]
+    ],
+    "id": "34"
   },
   {
     "title": "Ubiquitination",
@@ -89,7 +92,8 @@
         "position": "Anywhere",
         "classification": "Post-translational"
       }
-    ]
+    ],
+    "id": "27"
   },
   {
     "title": "Glycosylation",
@@ -118,7 +122,8 @@
         "position": "Anywhere",
         "classification": "Post-translational"
       }
-    ]
+    ],
+    "id": "41"
   },
   {
     "title": "Sumoylation",
@@ -137,7 +142,8 @@
         "position": "Anywhere",
         "classification": "Post-translational"
       }
-    ]
+    ],
+    "id": "55"
   },
   {
     "title": "Nitrosylation",
@@ -154,7 +160,8 @@
         "position": "Anywhere",
         "classification": "Post-translational"
       }
-    ]
+    ],
+    "id": "62"
   },
   {
     "title": "Oxidation",
@@ -170,7 +177,8 @@
         "position": "Anywhere",
         "classification": "Post-translational"
       }
-    ]
+    ],
+    "id": "35"
   },
   {
     "title": "Palmitoylation",
@@ -188,7 +196,8 @@
         "position": "Anywhere",
         "classification": "Post-translational"
       }
-    ]
+    ],
+    "id": "47"
   },
   {
     "title": "Myristoylation",
@@ -206,7 +215,8 @@
         "position": "Anywhere",
         "classification": "Post-translational"
       }
-    ]
+    ],
+    "id": "49"
   },
   {
     "title": "Carbamidomethylation",
@@ -225,6 +235,7 @@
         "position": "Anywhere",
         "classification": "Post-translational"
       }
-    ]
+    ],
+    "id": "4"
   }
 ]

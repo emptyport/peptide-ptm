@@ -54,7 +54,49 @@ tape('PTM.parseXmlMods should correctly parse XML into modifications', (t) => {
 tape('PTM.loadDefault should load default modifications', (t) => {
   const ptm = new PTM();
   const modifications = ptm.mods;
-  t.equal(modifications.length, 11, 'Should load 11 modifications');
+  t.equal(
+    Object.keys(modifications).length,
+    11,
+    'Should load 11 modifications'
+  );
+
+  t.end();
+});
+
+tape('PTM.getById should retrieve modifications by id', (t) => {
+  const ptm = new PTM();
+  const existingMod = ptm.getById('21');
+  t.equal(
+    existingMod.title,
+    'Phosphorylation',
+    'Should retrieve the modification with title TestMod'
+  );
+
+  const nonExistingMod = ptm.getById('1000');
+  t.equal(
+    nonExistingMod,
+    undefined,
+    'Should return undefined for non-existing id'
+  );
+
+  t.end();
+});
+
+tape('PTM.getByName should retrieve modifications by name', (t) => {
+  const ptm = new PTM();
+  const existingMod = ptm.getByName('Phosphorylation');
+  t.equal(
+    existingMod.title,
+    'Phosphorylation',
+    'Should retrieve the modification with title TestMod'
+  );
+
+  const nonExistingMod = ptm.getByName('TestMod');
+  t.equal(
+    nonExistingMod,
+    undefined,
+    'Should return undefined for non-existing name'
+  );
 
   t.end();
 });
