@@ -1,0 +1,230 @@
+[
+  {
+    "title": "Phosphorylation",
+    "fullName": "Phosphorylation",
+    "massMono": 79.966331,
+    "massAvg": 79.9799,
+    "composition": {
+      "H": 1,
+      "P": 1,
+      "O": 3
+    },
+    "specificity": [
+      {
+        "site": "S",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      },
+      {
+        "site": "T",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      },
+      {
+        "site": "Y",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      }
+    ]
+  },
+  {
+    "title": "Acetylation",
+    "fullName": "Acetylation",
+    "massMono": 42.010565,
+    "massAvg": 42.0367,
+    "composition": {
+      "C": 2,
+      "H": 2,
+      "O": 1
+    },
+    "specificity": [
+      {
+        "site": "K",
+        "position": "Anywhere",
+        "classification": "Multiple"
+      },
+      {
+        "site": "N-term",
+        "position": "Any N-term",
+        "classification": "Multiple"
+      }
+    ]
+  },
+  {
+    "title": "Methylation",
+    "fullName": "Methylation",
+    "massMono": 14.01565,
+    "massAvg": 14.0266,
+    "composition": {
+      "C": 1,
+      "H": 2
+    },
+    "specificity": [
+      {
+        "site": "K",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      },
+      {
+        "site": "R",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      }
+    ]
+  },
+  {
+    "title": "Ubiquitination",
+    "fullName": "Ubiquitination",
+    "massMono": 114.04293,
+    "massAvg": 114.1026,
+    "composition": {
+      "C": 4,
+      "H": 6,
+      "N": 2,
+      "O": 2
+    },
+    "specificity": [
+      {
+        "site": "K",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      }
+    ]
+  },
+  {
+    "title": "Glycosylation",
+    "fullName": "Glycosylation",
+    "massMono": 203.07937,
+    "massAvg": 203.195,
+    "composition": {
+      "C": 8,
+      "H": 13,
+      "N": 1,
+      "O": 5
+    },
+    "specificity": [
+      {
+        "site": "N",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      },
+      {
+        "site": "S",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      },
+      {
+        "site": "T",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      }
+    ]
+  },
+  {
+    "title": "Sumoylation",
+    "fullName": "Sumoylation",
+    "massMono": 213.15942,
+    "massAvg": 213.3015,
+    "composition": {
+      "C": 9,
+      "H": 17,
+      "N": 3,
+      "O": 6
+    },
+    "specificity": [
+      {
+        "site": "K",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      }
+    ]
+  },
+  {
+    "title": "Nitrosylation",
+    "fullName": "Nitrosylation",
+    "massMono": 29.99799,
+    "massAvg": 30.0061,
+    "composition": {
+      "N": 1,
+      "O": 1
+    },
+    "specificity": [
+      {
+        "site": "C",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      }
+    ]
+  },
+  {
+    "title": "Oxidation",
+    "fullName": "Oxidation",
+    "massMono": 15.994915,
+    "massAvg": 16.0,
+    "composition": {
+      "O": 1
+    },
+    "specificity": [
+      {
+        "site": "M",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      }
+    ]
+  },
+  {
+    "title": "Palmitoylation",
+    "fullName": "Palmitoylation",
+    "massMono": 238.22966,
+    "massAvg": 238.4148,
+    "composition": {
+      "C": 16,
+      "H": 30,
+      "O": 1
+    },
+    "specificity": [
+      {
+        "site": "C",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      }
+    ]
+  },
+  {
+    "title": "Myristoylation",
+    "fullName": "Myristoylation",
+    "massMono": 210.19837,
+    "massAvg": 210.318,
+    "composition": {
+      "C": 14,
+      "H": 22,
+      "O": 1
+    },
+    "specificity": [
+      {
+        "site": "G",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      }
+    ]
+  },
+  {
+    "title": "Carbamidomethylation",
+    "fullName": "Carbamidomethylation",
+    "massMono": 57.021464,
+    "massAvg": 57.0513,
+    "composition": {
+      "C": 2,
+      "H": 3,
+      "N": 1,
+      "O": 1
+    },
+    "specificity": [
+      {
+        "site": "C",
+        "position": "Anywhere",
+        "classification": "Post-translational"
+      }
+    ]
+  }
+]

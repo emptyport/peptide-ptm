@@ -51,5 +51,8 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.4.0"
   }
 }
